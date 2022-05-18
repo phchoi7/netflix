@@ -243,9 +243,8 @@ label {
 .btn {
     user-select: none;
     -moz-user-select: none;
-    background: #12151e none repeat scroll 0 0;
+    background: #e50914 none repeat scroll 0 0;
     border: 2px solid #e50914;
-    border-radius: 50px;
     color: #e3dfdf;
     cursor: pointer;
     display: inline-block;
@@ -254,7 +253,7 @@ label {
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 0;
-    padding: 16px 34px;
+    padding: 0.57em 1.35em;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;

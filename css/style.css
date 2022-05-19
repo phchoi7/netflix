@@ -1282,6 +1282,12 @@ label {
     background: rgba(109,109,110,.7) none repeat scroll 0 0;
     border: 2px solid rgba(109,109,110,.7);
 }
+@media only screen and (min-width: 1440px ) and (max-width:2560px) {
+    .logo img {
+        width: 167px ;
+    }
+  }
+
 .ucm-active .owl-nav button,
 .ucm-active-two .owl-nav button {
     position: relative;

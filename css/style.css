@@ -1229,12 +1229,39 @@ label {
     position: absolute;
     top: -99px;
     right: 0;
-    background: #20212b;
-    border: 2px solid #2d303d;
-    color: #e3dfdf;
+
+    color: white;
     padding: 9.5px 19px;
     border-radius: 50px;
 }
+.owl-nav .owl-next {
+    top:145px;
+    color: white;
+    font-size: 48px;
+}
+.owl-nav .owl-prev {
+    top:145px;
+    color: white;
+    font-size: 48px;
+    right: 1190px;
+}
+.owl-next > i , .owl-prev > i {
+    font-size: 48px !important;
+}
+@media only screen and (width: 1024px) {
+    .owl-nav .owl-next {
+        top:145px;
+        color: white;
+    }
+    .owl-nav .owl-prev {
+        top:145px;
+        color: white;
+        right: 840px;
+    }
+    .owl-next > i , .owl-prev > i {
+        font-size: 32px !important;
+    }
+  }
 .ucm-active.owl-carousel .owl-nav button.owl-prev,
 .ucm-active-two.owl-carousel .owl-nav button.owl-prev {
     padding-right: 17px;
@@ -1250,7 +1277,6 @@ label {
     transform: translateY(-50%);
     width: 3px;
     height: 26px;
-    background: #292b37;
 }
 .ucm-active .owl-nav button,
 .ucm-active-two .owl-nav button {
